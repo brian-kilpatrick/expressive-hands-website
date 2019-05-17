@@ -13,6 +13,7 @@ import background from '../../../content/images/pattern.png';
 import Header from "./header/header"
 import "./layout.scss"
 import Helmet from 'react-helmet';
+import favicon from '../../../content/images/favicon.jpg';
 
 const Layout = ({ children, title }) => (
     <>
@@ -25,6 +26,7 @@ const Layout = ({ children, title }) => (
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossOrigin="anonymous"
         />
+        <link rel="icon" type="image/jpg" href={favicon}/>
       </Helmet>
       <SEO title={title}/>
       <Header/>
