@@ -1,0 +1,63 @@
+@import "../components/layout/variables";
+
+.why-wrapper {
+
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .heading-text {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 2.2em;
+    text-align: center;
+    color: $alt-purple;
+
+
+    b {
+      color: $orange;
+    }
+  }
+
+  .divider {
+    width: 50px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: $orange;
+    margin: 40px auto;
+  }
+
+  .header-content {
+    line-height: 1.5em;
+    text-align: left;
+    padding-left: 71px;
+  }
+
+  .secondary-content {
+    width: 33%;
+    margin: 0 auto;
+
+  }
+
+  .text-content {
+    h3 {
+      margin-top: 20px;
+    }
+
+    .footnotes {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .why-wrapper {
+    .heading-text {
+      font-size: 1.8em;
+    }
+    .header-content {
+      padding-left: 0;
+    }
+  }
+}

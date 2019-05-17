@@ -1,8 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans');
+@import './variables.scss';
 html {
   font-family: "Open Sans" , Sans-Serif;
 }
 
 body {
   margin: 0;
+}
+
+footer {
+  height: 300px;
+  background: #F5F5F5;
+  display: flex !important;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  .logo {
+    width: 150px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .social-link {
+    font-size: 2em;
+    padding: 0 20px;
+    &:hover {
+      color: white;
+    }
+  }
 }

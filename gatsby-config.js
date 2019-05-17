@@ -18,6 +18,13 @@ module.exports = {
     `gatsby-plugin-sharp`,
     'gatsby-plugin-sass',
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/images/`,
+        name: 'images',
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Expressive Hands`,

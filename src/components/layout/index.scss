@@ -1,0 +1,79 @@
+@import "variables";
+
+.para-content {
+  height: 138px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2em;
+  //padding: 60px;
+
+  .title {
+    font-size: 3em;
+  }
+}
+
+.main-content {
+  padding: 20px;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  h1 {
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: $alt-purple;
+    font-size: 3em;
+  }
+
+  .divider {
+    background-size: 100px 14px;
+    height: 14px;
+    width: 100px;
+    margin-bottom: 23px;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
+.instagram-feed {
+  h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+#instafeed {
+  display: flex;
+}
+
+.section-header {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 4em;
+}
+
+@media (max-width: 768px) {
+  .para-content {
+    .title {
+      font-size: 2.5em
+    }
+  }
+
+  #instafeed {
+    align-items: center;
+    flex-flow: column;
+  }
+}

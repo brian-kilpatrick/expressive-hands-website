@@ -1,0 +1,11 @@
+.header-img {
+  margin: 50px auto;
+  width: 400px;
+  border-radius: 100%;
+}
+
+@media (max-width: 768px) {
+  .header-img {
+    width: initial;
+  }
+}

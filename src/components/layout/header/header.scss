@@ -1,29 +1,39 @@
 @import "../variables";
 
-header {
+.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1215px;
+  //width: 1215px;
   margin-left: auto;
   margin-right: auto;
+
+  .container {
+    display: flex;
+    justify-content: center !important;
+  }
 
   .logo {
     width: 236px;
   }
 
-  nav {
-    display: flex;
+  .navbar-nav {
+    //display: flex;
 
     .nav-link {
       text-decoration: none;
       display: inline-block;
-      color: #56509F;
+      color: #56509F !important;
       text-align: center;
       padding: 15px 10px 26px;
 
+      &.svg-link {
+        padding-top: 26px;
+      }
+
       .svg-icon {
-        padding: 10px;
+        padding: 4px;
+        margin: 7px;
         width: 45px;
         fill: #56509F;
       }
@@ -51,6 +61,14 @@ header {
       }
 
 
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    .logo {
+      width: 160px;
     }
   }
 }
