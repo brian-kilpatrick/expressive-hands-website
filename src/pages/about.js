@@ -9,7 +9,7 @@ import '../components/about.scss';
 const About = ({data}) => {
   const img = data.star.img.fluid;
   return (
-      <Layout>
+      <Layout title="About">
         <div className="about-wrapper">
           <div className="section-header" style={{backgroundImage: `url(${pattern})`}}>
             About

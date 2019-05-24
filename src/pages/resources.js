@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Resources = ({data}) => {
   return (
-      <Layout>
+      <Layout title="Resources">
         <div className="resources-wrapper">
           <div className="section-header" style={{backgroundImage: `url(${pattern})`}}>
             Resources
@@ -15,22 +15,12 @@ const Resources = ({data}) => {
             <Row>
               <Col>
                 <div className="links">
-                  <p><a target="_blank" href="http://www.signingtime.com">SigningTime.com</a></p>
+                  <h4>American Sign Language Education</h4>
                   <p><a target="_blank" href="https://signitasl.com/">SignIt! ASL</a></p>
-                  <h4>Local ASL resources:</h4>
-                  <p><a target="_blank" href="https://thenestinghouse.net/">The Nesting House</a></p>
-                  <p><a target="_blank" href="https://www.kithkin-community.com/">Kith + Kin</a></p>
-                  <p><a target="_blank" href="http://www.southphillyparents.org/">Lilypad</a></p>
-                  <p><a target="_blank" href="https://www.nestcentercity.com/">Nest</a></p>
-                  <p><a target="_blank" href="https://rompnroll.com/">Romp & Roll</a></p>
-                  <p><a target="_blank" href="http://www.luluscasita.com/">Lulu’s Casita</a></p>
-                  <p><a target="_blank" href="https://smithplayground.org/">Smith Playground & Memorial House</a></p>
-                  <p><a target="_blank" href="https://lifecyclewomancare.org/">The Birth Center at Lifecycle Womancare</a></p>
-                  <p><a target="_blank" href="https://balancedbreastfeeding.com/">Balanced Breastfeeding</a></p>
-                  <p><a target="_blank" href="https://maternitycarecoalition.org/">Maternity Care Coalition</a></p>
-                  <p><a target="_blank" href="https://www.nursefamilypartnership.org/">Nurse-Family Partnership</a></p>
-                  <p><a target="_blank" href="http://mainlineparent.com/">Mainline Parent</a></p>
-                  <p><a target="_blank" href="http://phillyfamily.com/">Philadelphia Family</a></p>
+                  <p><a target="_blank" href="http://www.lifeprint.com">LifePrint</a></p>
+                  <h4>Philadelphia Area:</h4>
+                  <p><a target="_blank" href="https://dhcc.org/education/">Deaf-Hearing Communication Centre</a></p>
+                  <p><a target="_blank" href="https://psd.org/">Pennsylvania School for the Deaf</a></p>
                 </div>
               </Col>
             </Row>

@@ -17,6 +17,7 @@ const Header = () => (
       <Navbar.Collapse>
         <Nav>
           <NavLink icon="fas fa-home" link="/" title="Home"/>
+          <NavLink icon="far fa-id-card" link="/about" title="About"/>
           <Link className="nav-link svg-link" to="/why">
             <ASLIcon className="svg-icon"/>
             <span className="link-title">Why Sign?</span>
@@ -28,7 +29,7 @@ const Header = () => (
             <CartSVG className="svg-icon cart-icon"/>
             <span className="link-title">Store</span>
           </a>
-          <NavLink icon="far fa-id-card" link="/about" title="About"/>
+          <NavLink icon="fas fa-envelope-open-text" link='/contact' title="Contact"/>
         </Nav>
       </Navbar.Collapse>
 

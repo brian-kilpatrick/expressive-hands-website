@@ -9,7 +9,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Why = ({data}) => {
   const img = data.imgOne.img.fluid;
   return (
-      <Layout>
+      <Layout title="Why Sign?">
         <div className="why-wrapper">
           <div className="section-header" style={{backgroundImage: `url(${pattern})`}}>
             Why Sign?
@@ -74,7 +74,6 @@ const Why = ({data}) => {
                   <br/>
                   <i> © 2011 Two Little Hands Productions - www.SigningTime.com</i>
                   <br/>
-                  <i>OR</i>
                   <br/>
                   <a href="https://www.signingtime.com/teaching-baby-sign-language-infographic/">
                     <img title="baby-sign-language-infographic"

@@ -9,7 +9,7 @@ import '../components/classes.scss';
 const Classes = ({data}) => {
   // const img = data.imgOne.img.fluid;
   return (
-      <Layout>
+      <Layout title="Classes">
         <div className="classes-wrapper">
           <div className="section-header" style={{backgroundImage: `url(${pattern})`}}>
             Classes
@@ -23,7 +23,7 @@ const Classes = ({data}) => {
                 <p>
                   Learn the most useful starter signs including those for food, drink, pets,
                   family, clothing, transportation, manners and bedtime. (Baby
-                  Signing Time! Vol 1 & Vol 2) - <a className="register-link" href="https://www-1569g.bookeo.com/bookeo/b_classesandworkshops_start.html?ctlsrc2=ZHSAdrAqnod0OhVAP0hzd8Sdayy5%2F1tsw51sugmTjuQ%3D&src=02r&type=41569AKTCF316A400AF556" target="_blank">Register Here!</a>
+                  Signing Time! Vol 1 & Vol 2) - <a className="register-link" href="https://www.kithkin-community.com/classes-calendar/2019/5/29/sign-and-play-with-expressive-hands" target="_blank">Register Here!</a>
                 </p>
                 <i>Cycle II: Everyday Signs</i>
                 <p>
@@ -45,17 +45,7 @@ const Classes = ({data}) => {
                 </p>
                 <p><i>Potty Time Workshop | Parent-Only Workshop</i></p>
                 <p><i>Intro to Baby Sign Language for New/Expectant Parents | Parent-Only Workshop - (babies up to age 3-mo can attend)</i></p>
-                <p>
-                  Tuition for all classes is $125 (includes Parent Resource eGuide, Keepsake Graduate Certificate &
-                  choice of ONE Baby Signing Time product bundle of choice: Vol 1 or Vol 2 Video/MP3 combo,
-                  flashcards/Hopkins Plush toy, or board board/Hopkins Plush toy).
-                </p>
-                <p>
-                  Sibling Discount is 50% off (includes Hopkins Plush toy).
-                </p>
-                <p>
-                  Drop-in Classes are $20 per class (no extra product included).
-                </p>
+
                 <h4>Class Descriptions:</h4>
                 <p><b>My First Signs: </b><i>Recommended for ages 0-2.</i></p>
                 <p>
@@ -65,9 +55,16 @@ const Classes = ({data}) => {
                 </p>
                 <span>Classes will run 8-weeks</span><br/>
                 <span>Tuition: $130</span><br/>
-                <span>Includes: Parent Resource Book, Keepsake Craft material fee, and Baby Signing Time Vol. 1 or Vol. 2 DVD/CD (or exchange for digital credit)</span><br/>
-                <span>Sibling discounts are available</span><br/>
-                <span>Registration is required</span><br/>
+                <span>Includes: Parent Resource eGuide, Keepsake Graduate Certificate &
+                  choice of ONE Baby Signing Time product bundle of choice: Vol 1 or Vol 2 Video/MP3 combo,
+                  flashcards/Hopkins Plush toy, or board board/Hopkins Plush toy.
+                </span><br/>
+                <span>
+                  Sibling Discount is 50% off (includes Hopkins Plush toy).
+                </span><br/>
+                <span>
+                  Drop-in Classes are $20 per class (no extra product included).
+                </span><br/>
               </Col>
             </Row>
           </Container>

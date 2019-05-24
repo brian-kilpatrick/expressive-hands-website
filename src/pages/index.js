@@ -1,6 +1,6 @@
 import React from "react"
 // import { Link } from "gatsby"
-import { graphql } from 'gatsby'
+import {graphql, Link} from 'gatsby'
 import Layout from "../components/layout/layout"
 import { Parallax } from 'react-parallax';
 import '../components/layout/index.scss';
@@ -21,9 +21,10 @@ const IndexPage = ({data}) => (
       <div className="main-content">
         <h1>Welcome to Expressive Hands</h1>
         <div className="divider" style={{backgroundImage: `url(${divider})`}}></div>
-        <p>Sign and Play Classes, Story Times, and Workshops for ages 0-5 and their families</p>
+        <p>Sign + Play Classes, Story Times, and Workshops in the Philadelphia area for ages 0-5 and their families</p>
         <p>Based on the award-winning Baby Signing Time Program</p>
-        <p>Coming soon to Philadelphia, PA!</p>
+        <p>Join our <Link to="/contact">mailing list</Link> to stay up to date with the latest news from Expressive Hands! </p>
+
       </div>
       <Container className="instagram-feed">
         <h4>Check out our latests posts on Instagram!</h4>
